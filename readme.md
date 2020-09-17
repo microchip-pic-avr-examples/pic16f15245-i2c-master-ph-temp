@@ -23,7 +23,7 @@ The 'pic16f15245-i2c-master-ph-temp' code example highlights the use of the PIC1
 ## Hardware Used
 
 - [PIC16F15245](https://www.microchip.com/wwwproducts/en/PIC16F15245) 20-Lead PDIP Micrcontroller
-- Curiosity Low Pin Count (LPC) Development Board [(DM164137)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM164137)
+- Curiosity Low Pin Count (LPC) Development Board - Rev 4 [(DM164137)](https://www.microchip.com/DevelopmentTools/ProductDetails/DM164137)
 - Micro-USB to USB 2.0 cable
 - Jumper wires
 
