@@ -3,7 +3,7 @@
 pipeline {
     agent {
         kubernetes {
-            label 'pic18f15245-i2c-master-ph-temp'
+            label 'pic16f15245-i2c-master-ph-temp'
 			defaultContainer 'xc8-mplabx'
             yamlFile 'cloudprovider.yml'
         }
@@ -17,8 +17,8 @@ pipeline {
 	
 	environment {
 		GITHUB_OWNER = 'microchip-pic-avr-examples'	
-		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/pic18f15245-i2c-master-ph-temp.git'
-		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebe/pic18f15245-i2c-master-ph-temp.git'
+		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/pic16f15245-i2c-master-ph-temp.git'
+		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebe/pic16f15245-i2c-master-ph-temp.git'
 		DEPLOY_TOOL_URL = 'https://bitbucket.microchip.com/scm/citd/tool-github-deploy.git'
 		DEPLOY_SCRIPT_DIR = 'tool-github-deploy'
 		DEPLOY_SCRIPT_FILE = 'deploy-source-as-is.sh'
