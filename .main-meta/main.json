@@ -4,9 +4,9 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f15245-i2c-master-ph-temp",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "I2C Master Mode pH and Temperature Sensing using PIC16F15245",
-        "projectName": "pic16f15245-i2c-slave-ph-sensor",
+        "projectName": "pic16f15245-i2c-master-ph-temp",
         "shortDescription": "This code example demonstrates the use of the MSSP peripheral in I2C master mode.",
         "ide": {
             "name": "MPLABX",
